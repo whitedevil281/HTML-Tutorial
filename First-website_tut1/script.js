@@ -1,0 +1,1 @@
+alert("Welcome to the most iq person website")

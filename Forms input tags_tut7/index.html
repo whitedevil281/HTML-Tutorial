@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms input tags</title>
+</head>
+
+<body>
+    <!-- form tag creates a form  -->
+    <!-- it has input tags inside to make up the form  -->
+    <form action="">
+
+        <h1>Fill up the details for registration:--</h1>
+        <div>
+            <label for="username">Enter your name:</label>
+            <input type="text" name="username" id="username" placeholder="Enter your username">
+        </div>
+
+        <div>
+            <!-- this is adio type input  -->
+            <!-- if we give same name to the input:radio tags then only one can be selected -->
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="" id="membership">
+            <label for="membership">Want the premium membership</label>
+        </div><br>
+
+        <div>
+            <label for="text">Enter about yourself and your story and experience</label>
+            <textarea name="" id="text" cols="100" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="select">Enter your Experience:</label>
+            <select name="Experience" id="select">
+                <option value="apple">Beginner</option>
+                <option value="banana">Intermediate</option>
+                <option value="cherry">Advance</option>
+          </select>
+        </div>
+    </form>
+
+</body>
+
+</html>
